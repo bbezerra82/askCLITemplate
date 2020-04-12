@@ -6,7 +6,13 @@ const handler = {
         return request.type === 'SessionEndedRequest';
     },
     handle(handlerInput) {
-        console.log(`Session ended with reason: ${handlerInput.requestEnvelope.request.reason}`);
+        const { error, reason } = handlerInput.requestEnvelope.request;
+        console.log(`[INFO] Session ended with reason: ${reason}`);
+
+        if (error) {
+            console.error(`Type: ${error.type}`)
+            console.error(`Message: ${error.message}`)
+        }
         return handlerInput.responseBuilder.getResponse();
     }
 };
