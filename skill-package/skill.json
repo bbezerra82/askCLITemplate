@@ -26,6 +26,19 @@
       {
         "name": "alexa::person_id:read"
       }
-    ]
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-GB": {
+          "privacyPolicyUrl": "https://alexadevbbezerra.s3-eu-west-1.amazonaws.com/privacyPolicy/privacyPolicy.md",
+          "termsOfUseUrl": "https://alexadevbbezerra.s3-eu-west-1.amazonaws.com/privacyPolicy/termsOfUse.md"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
   }
 }
