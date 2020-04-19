@@ -52,6 +52,9 @@ module.exports = {
                 'Do you want to hear more?',
                 'Do you want me to continue?'
             ],
+            AND_MSG: [ 
+                ' and '
+            ],
         }
     },
     pt: {
@@ -100,6 +103,9 @@ module.exports = {
                 'Você quer ouvir mais?',
                 'Você quer que eu continue?',
                 'Devo continuar?',
+            ],
+            AND_MSG: [ 
+                ' e '
             ],
         }
     },

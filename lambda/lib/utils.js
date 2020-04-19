@@ -14,7 +14,7 @@ function readArray(values, t) {
         const item = t(`${values[i]}`)
         speech += `${item}`;
         if (i === values.length - 2) {
-            speech += ' and '
+            speech += t('AND_MSG')
         } else if (i !== values.length - 1 ) {
             speech += ', '
         }
